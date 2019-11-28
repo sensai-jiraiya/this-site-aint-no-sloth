@@ -1,11 +1,37 @@
 html {
   font-family: Georgia, serif;
   background-image: url("../images/sloth-bg.svg");
-  background-size: 50px;
+  background-size: 48px;
   background-color: #bea586;
 }
 
 h1 {
   color: #fff;
-  filter: drop-shadow(1px 1px 2px #000)
+  filter: drop-shadow(1px 1px 2px #000);
+}
+
+a {
+  color: #000;
+}
+
+p {
+  font-family: Verdana, serif;
+}
+
+.head {
+  border-color: rgba(28, 14, 0, .6);
+  border-style: solid;
+  border-width: 2px;
+  border-left: 0;
+  border-right: 0;
+  padding-top: .15em;
+  padding-bottom: .2em;
+}
+
+.img-one {
+  background-image: linear-gradient(to bottom, rgba(28, 14, 0, .6) 25%, rgba(28, 14, 0, 0));
+}
+
+.ugh {
+  background-color: #fff;
 }
