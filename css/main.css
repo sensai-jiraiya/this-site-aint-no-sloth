@@ -1,0 +1,11 @@
+html {
+  font-family: Georgia, serif;
+  background-image: url("../images/sloth-bg.svg");
+  background-size: 50px;
+  background-color: #bea586;
+}
+
+h1 {
+  color: #fff;
+  filter: drop-shadow(1px 1px 2px #000)
+}
